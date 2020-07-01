@@ -1,0 +1,239 @@
+html{
+    height:100%;
+}
+body{
+    font-family: 'Abel', sans-serif;
+    margin:0px;
+}
+section{
+    height:1000px;
+    padding-bottom:100px;
+    width:100%;    
+}
+.header{
+    background-image:url("header-bg.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+.header-left{
+    width:35%;
+    float:left;
+    padding-left:10%;
+    padding-top:20%;
+}
+.header-typewriter-anim{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 580px;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: transparent;}
+    to{border-right-color: transparent;}
+  }
+  
+  .header-typewriter{
+    position: relative;
+    top: 50%;  
+    border-right: 2px solid transparent;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+h1{
+    font-size:50px;
+}
+#intro-paragraph{
+    padding-bottom:60px;
+}
+.name-highlight{
+    color:hotpink;
+}
+.name-highlight:hover{
+    font-size: 400%;
+    color:  #ff3385;
+}
+p{
+    color:dimgray;
+    font-size:20px;
+}
+.btn{
+    margin-top:20px;
+}
+.link-button{
+    text-decoration:none;
+    background-image: linear-gradient(15deg,hotpink,deeppink);
+    padding:10px 20px;
+    border-radius:10px;
+    color:white;
+    font-weight:500;
+    margin-top:5%;
+    
+}
+.link-button:hover{
+    background-image:linear-gradient(20deg,pink,deeppink); 
+}
+
+.header-right{
+    width:50%;
+    float:left;
+}
+.header-right img{
+    height:120%;
+    width:120%;
+    float:left;
+}
+.mid{
+    background-image:url("biography-bg.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+.mid-left{
+    width:50%;
+    float:left;
+    
+}
+.mid-left img{
+    height:700px;
+    width:700px;
+    
+    
+}
+.mid-right{
+    width:40%;
+    float:left;
+    padding-top:15%;
+    
+}
+.biography:hover{
+    font-size:400%;
+}
+#biography-paragraph{
+    padding-bottom:80px;
+}
+.latest-work{
+    background-image:url("latest-work-bg.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    
+}
+.latest-work-header{
+    text-align:center;
+    padding-bottom:20%;
+}
+.latest-work img{
+    width:31%;
+    float:left;
+    padding:1%;
+    box-shadow: 10px 10px 10px lightgray ;
+
+}
+
+.bottom{
+    background-image:url("footer-bg.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+.bottom-header{
+    text-align:center;
+    padding-bottom:100px;
+    margin-top:10%;
+}
+h2{
+    font-size:30px;
+}
+#bottom-client-id{
+    color:dimgray;
+}
+#bottom-paragraph{
+    width:50%;
+    margin:auto;
+    color:black;
+}
+#bottom-link{
+    width:50%;
+    margin:auto;
+}
+#bottom-link-button{
+    text-decoration:none;
+    background-image: linear-gradient(20deg,hotpink,deeppink);
+    padding:10px 20px;
+    border-radius:10px;
+    color:white;
+    font-weight:500;
+    margin-top:5%;
+    display:block;
+}
+#bottom-link-button:hover{
+    background-image:linear-gradient(20deg,pink,deeppink);
+}
+.social-media-icons{
+    padding-top:80px;
+    text-align: center;
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius:20px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.skills{
+    background-image:url("biography-bg.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+#skills-header{
+    text-align:center;
+    padding-bottom:40px;
+}
+.skills-cards{
+    width:28%;
+    border:0px solid transparent;
+    border-radius:20px;
+    box-shadow: 10px 10px 40px gray ;
+    padding:15px;
+    margin:15px;
+    display:inline;
+    float:left;
+    height:45%;
+    border-left:7px solid red;
+    
+}
+
+footer{
+    text-align:center;
+    margin:120px 0px 0px 0px;    
+}
